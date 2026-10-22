@@ -1,0 +1,6 @@
+
+name: DragonReward
+version: '1.0.0'
+main: tw.moses.dragonreward.DragonReward
+api-version: '26.2'
+description: Ender Dragon reward item frame
