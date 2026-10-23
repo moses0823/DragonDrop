@@ -1,6 +1,16 @@
-
 name: DragonReward
 version: '1.0.0'
 main: tw.moses.dragonreward.DragonReward
 api-version: '26.2'
 description: Ender Dragon reward item frame
+
+commands:
+  dragonreward:
+    description: DragonReward 管理指令
+    usage: /dragonreward <reload|test>
+    permission: dragonreward.admin
+
+permissions:
+  dragonreward.admin:
+    description: 允許管理 DragonReward 插件
+    default: op

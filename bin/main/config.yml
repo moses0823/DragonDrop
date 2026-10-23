@@ -1,0 +1,16 @@
+
+world: world_the_end
+
+# 展示框所在的空氣方塊座標
+x: 0
+y: 65
+z: 3
+
+# 展示框正面朝向
+facing: NORTH
+
+claimed: false
+
+retry:
+  max-attempts: 15
+  delay-ticks: 40
